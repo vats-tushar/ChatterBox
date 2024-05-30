@@ -1,0 +1,71 @@
+.nav{
+    height: 8vh;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 35px;
+    margin-left: 1%;
+    font-weight: 600;
+    font-family: cursive;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+.logout{
+    font-size: 30px;
+    margin-right: 1%;
+    padding: 8px;
+    cursor: pointer;
+}
+.fullwindow{
+    height: 92vh;
+    display: flex;
+}
+.leftchats{
+    width: 35%;
+    background-color: peachpuff;
+}
+.chatshead{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin : 2% 2% 0 2%; 
+}
+.startnew{
+    cursor: pointer;
+    width: 10%;
+    text-align: center;
+}
+.startnew:hover::after{
+    z-index: 1;
+    position: absolute;
+    content: "Start New";
+    font-size: 18px;
+    display: block;
+    background-color: rgb(67, 53, 53);
+    color: aliceblue;
+    padding: 2px;
+    border-radius: 5px;
+}
+.hr{
+    border-top: 2px solid black;
+    width: 98%;
+    margin-left: 1%;
+}
+.chatlist{
+    padding-left: 2%;
+    margin-top: 1%;
+}
+.contact{
+    width: 96%;
+    padding: 1%;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out ;
+}
+.contact:hover{
+    background-color: rgb(216, 195, 167);
+}

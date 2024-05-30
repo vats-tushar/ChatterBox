@@ -1,0 +1,62 @@
+.rightchat{
+    width: 65%;
+}
+.rightchat::before{
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 92vh;
+    opacity: 0.6;
+    background: url('../assets/chat_bg.jpg');
+    background-size: contain;
+}
+.contname{
+    background-color: cornsilk;
+    position: relative;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2px 0 2px 3px;
+}
+.messages{
+    padding-top: 1vh;
+    position: relative;
+    height: 77vh;
+    overflow-y: scroll;
+}
+.sendbox{
+    position: relative;
+    padding: 13px 1% 1% 1%;
+    display: flex;
+}
+.sent{
+    display: flex;
+    font-size: 28px;
+    justify-content: flex-end;
+}
+.received{
+    display: flex;
+    font-size: 28px;
+    margin-right: auto;
+}
+.chatitem{
+    padding: 1% 2% 1% 2%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+.msgcolblue{
+    background-color: aqua;
+}
+.msgcolred{
+    background-color: red;
+}
+.sendarea{
+    width: 93%;
+    border-radius: 15px;
+    padding: 5px;
+}
+.submitbtn{
+    font-size: 26px;
+    border-radius: 50%;
+}
